@@ -1,0 +1,125 @@
+
+
+/* Estilos generales */
+body {
+  margin: 20px;
+  background: #fafafa;
+  color: #333;
+}
+
+h1, h2 {
+  font-weight: normal;
+}
+
+/* --- Ejercicio 1: Modelo de Caja --- */
+
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 5px solid #4CAF50;
+  margin: 20px;
+  background-color: #C8E6C9;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #256029;
+}
+
+.content-box {
+  box-sizing: content-box; /* valor por defecto */
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+/* --- Ejercicio 2: Posicionamiento --- */
+
+.pos {
+  width: 150px;
+  height: 80px;
+  color: white;
+  line-height: 80px;
+  text-align: center;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.static {
+  position: static;
+  background-color: #256608;
+}
+
+.relative {
+  position: relative;
+  background-color: #3F51B5;
+  top: 20px;   /* mueve el elemento 20px hacia abajo */
+  left: 30px;  /* mueve el elemento 30px hacia la derecha */
+}
+
+.absolute {
+  position: absolute;
+  background-color: #0980af;
+  top: 100px;
+  right: 20px;
+}
+
+.fixed {
+  position: fixed;
+  background-color: #E91E63;
+  bottom: 10px;
+  left: 1000px;
+  
+}
+
+/* --- Ejercicio 3: Propiedad Display --- */
+
+.inline {
+  display: inline;
+  background-color: #ffeb3b;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+
+}
+
+.block {
+  display: block;
+  background-color: #ffc107;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #999;
+  width: 200px;
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: #ff9800;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #666;
+  width: 150px; 
+  height: 40px;
+  vertical-align: middle;
+}
+
+.hidden:hover {
+  display: block;
+  background-color: #f44336;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #b71c1c;
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* --- Ejercicio 4: Google Fonts --- */
+
+.fuente-google {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  color: #3E2723;
+}

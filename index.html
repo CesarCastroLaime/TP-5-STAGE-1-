@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP5</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    
+  <h1>TP5 - Ejercicios CSS</h1>
+
+  <!-- Ejercicio 1: Modelo de Caja -->
+  <section id="ej1">
+    <h2>Ejercicio 1: Modelo de Caja</h2>
+    <div class="box content-box">Content-box</div>
+    <div class="box border-box">Border-box</div>
+    <p class="comment">
+      Se Observa que con <code>content-box</code> el tamaño total de la caja aumenta al sumar padding y border.<br/>
+      Con <code>border-box</code>, el tamaño total es el mismo (width y height incluyen padding y border).
+    </p>
+  </section>
+
+  <!-- Ejercicio 2: Posicionamiento -->
+  <section id="ej2">
+    <h2>Ejercicio 2: Posicionamiento</h2>
+    <div class="pos static">Static (default)</div>
+    <div class="pos relative">Relative</div>
+    <div class="pos absolute">Absolute</div>
+    <div class="pos fixed">Fixed</div>
+    <p class="comment">
+      Cada caja usa un posicionamiento distinto. Se Observa cómo <code>absolute</code> y <code>fixed</code> salen del flujo normal.
+    </p>
+  </section>
+
+  <!-- Ejercicio 3: Propiedad Display -->
+  <section id="ej3">
+    <h2>Ejercicio 3: Propiedad Display</h2>
+    <p class="inline">Display: inline</p>
+    <p class="block">Display: block</p>
+    <p class="inline-block">Display: inline-block</p>
+    <p class="hidden">Pasa el mouse por encima para ocultarme</p>
+    <p class="comment">
+      <strong>inline:</strong> no comienza en nueva línea, solo ocupa el ancho de su contenido.<br/>
+      <strong>block:</strong> comienza en nueva línea y ocupa todo el ancho disponible.<br/>
+      <strong>inline-block:</strong> combina características de inline y block.<br/>
+      <strong>display:none:</strong> oculta el elemento cuando se pasa el mouse por encima.
+    </p>
+    
+  </section>
+
+  <!-- Ejercicio 4: Google Fonts -->
+  <section id="ej4">
+    <h2>Ejercicio 4: Integración de Google Fonts</h2>
+    <p class="fuente-default">Texto con fuente por defecto del navegador.</p>
+    <p class="fuente-google">Texto con fuente Roboto integrada desde Google Fonts.</p>
+  </section>
+    
+</body>
+</html>
